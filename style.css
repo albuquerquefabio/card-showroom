@@ -70,3 +70,10 @@ p {
 .flex-column {
   flex-direction: column;
 }
+
+.card {
+  /* Sobre escrita do original*/
+  min-width: 15em;
+  /* definindo largura maxima do card */
+  max-width: 20em;
+}
