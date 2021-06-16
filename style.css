@@ -11,3 +11,62 @@
   object-position: center;
   -o-object-position: center;
 }
+
+body,
+section,
+div,
+header,
+ul,
+footer {
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+ul,
+li {
+  list-style: none;
+}
+p {
+  font-size: 1.15em;
+  line-height: 1.6;
+}
+
+.flex-align-center {
+  align-content: center;
+}
+.flex-align-between {
+  align-content: space-between;
+}
+.flex-align-start {
+  align-content: flex-start;
+}
+.flex-align-end {
+  align-content: flex-end;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+.flex-justify-between {
+  justify-content: space-between;
+}
+.flex-justify-start {
+  justify-content: flex-start;
+}
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-column {
+  flex-direction: column;
+}
